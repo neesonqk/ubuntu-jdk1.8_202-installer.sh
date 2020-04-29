@@ -20,7 +20,7 @@ sudo mkdir -p /opt/jdk
 
 sudo cp -rf /opt/jdk-8u202-linux-x64.tar.gz /opt/jdk/
 
-sudo cd /opt/jdk/ && tar -zxf jdk-8u202-linux-x64.tar.gz
+cd /opt/jdk/ && tar -zxf jdk-8u202-linux-x64.tar.gz
 
 sudo update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_202/bin/java 100
 
